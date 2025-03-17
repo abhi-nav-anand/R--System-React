@@ -1,0 +1,28 @@
+{
+  "name": "react-jsonplaceholder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.2.2",
+    "vite": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:react/recommended",
+      "plugin:react/jsx-uses-react",
+      "plugin:react/jsx-uses-vars"
+    ]
+  }
+}
